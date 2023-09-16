@@ -8,16 +8,20 @@ body {
   background-color: whitesmoke ;
 }
 
-.avatar {
-  height: 300px;
-  border-radius: 50%;
-  filter: drop-shadow(0 0 0.75rem black);
-}
-
 main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
+
+.avatar {
+  height: 300px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem black);
 }
 
 .descriptive-list dl dt {
