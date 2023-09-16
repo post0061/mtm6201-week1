@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+  background-color: whitesmoke ;
+}
+
+.avatar {
+  height: 300px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.descriptive-list dl dt {
+  font-weight: bold;
+}
